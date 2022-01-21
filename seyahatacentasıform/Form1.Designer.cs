@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.k1 = new System.Windows.Forms.Button();
-            this.k2 = new System.Windows.Forms.Button();
-            this.k3 = new System.Windows.Forms.Button();
-            this.k4 = new System.Windows.Forms.Button();
-            this.k5 = new System.Windows.Forms.Button();
-            this.k6 = new System.Windows.Forms.Button();
-            this.k7 = new System.Windows.Forms.Button();
             this.k8 = new System.Windows.Forms.Button();
+            this.k7 = new System.Windows.Forms.Button();
+            this.k6 = new System.Windows.Forms.Button();
+            this.k5 = new System.Windows.Forms.Button();
+            this.k4 = new System.Windows.Forms.Button();
+            this.k3 = new System.Windows.Forms.Button();
+            this.k2 = new System.Windows.Forms.Button();
+            this.k1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
@@ -49,6 +49,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -59,7 +60,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +82,78 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Otobüs";
             // 
+            // k8
+            // 
+            this.k8.Location = new System.Drawing.Point(108, 208);
+            this.k8.Name = "k8";
+            this.k8.Size = new System.Drawing.Size(75, 23);
+            this.k8.TabIndex = 8;
+            this.k8.Text = "8";
+            this.k8.UseVisualStyleBackColor = true;
+            // 
+            // k7
+            // 
+            this.k7.Location = new System.Drawing.Point(6, 208);
+            this.k7.Name = "k7";
+            this.k7.Size = new System.Drawing.Size(75, 23);
+            this.k7.TabIndex = 7;
+            this.k7.Text = "7";
+            this.k7.UseVisualStyleBackColor = true;
+            // 
+            // k6
+            // 
+            this.k6.Location = new System.Drawing.Point(108, 167);
+            this.k6.Name = "k6";
+            this.k6.Size = new System.Drawing.Size(75, 23);
+            this.k6.TabIndex = 6;
+            this.k6.Text = "6";
+            this.k6.UseVisualStyleBackColor = true;
+            // 
+            // k5
+            // 
+            this.k5.Location = new System.Drawing.Point(6, 167);
+            this.k5.Name = "k5";
+            this.k5.Size = new System.Drawing.Size(75, 23);
+            this.k5.TabIndex = 5;
+            this.k5.Text = "5";
+            this.k5.UseVisualStyleBackColor = true;
+            // 
+            // k4
+            // 
+            this.k4.Location = new System.Drawing.Point(108, 116);
+            this.k4.Name = "k4";
+            this.k4.Size = new System.Drawing.Size(75, 23);
+            this.k4.TabIndex = 4;
+            this.k4.Text = "4";
+            this.k4.UseVisualStyleBackColor = true;
+            // 
+            // k3
+            // 
+            this.k3.Location = new System.Drawing.Point(6, 116);
+            this.k3.Name = "k3";
+            this.k3.Size = new System.Drawing.Size(75, 23);
+            this.k3.TabIndex = 3;
+            this.k3.Text = "3";
+            this.k3.UseVisualStyleBackColor = true;
+            // 
+            // k2
+            // 
+            this.k2.Location = new System.Drawing.Point(108, 72);
+            this.k2.Name = "k2";
+            this.k2.Size = new System.Drawing.Size(75, 23);
+            this.k2.TabIndex = 2;
+            this.k2.Text = "2";
+            this.k2.UseVisualStyleBackColor = true;
+            // 
+            // k1
+            // 
+            this.k1.Location = new System.Drawing.Point(6, 72);
+            this.k1.Name = "k1";
+            this.k1.Size = new System.Drawing.Size(75, 23);
+            this.k1.TabIndex = 1;
+            this.k1.Text = "1";
+            this.k1.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -95,78 +167,6 @@
             this.button1.Text = "şöför";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // k1
-            // 
-            this.k1.Location = new System.Drawing.Point(6, 72);
-            this.k1.Name = "k1";
-            this.k1.Size = new System.Drawing.Size(75, 23);
-            this.k1.TabIndex = 1;
-            this.k1.Text = "1";
-            this.k1.UseVisualStyleBackColor = true;
-            // 
-            // k2
-            // 
-            this.k2.Location = new System.Drawing.Point(108, 72);
-            this.k2.Name = "k2";
-            this.k2.Size = new System.Drawing.Size(75, 23);
-            this.k2.TabIndex = 2;
-            this.k2.Text = "2";
-            this.k2.UseVisualStyleBackColor = true;
-            // 
-            // k3
-            // 
-            this.k3.Location = new System.Drawing.Point(6, 116);
-            this.k3.Name = "k3";
-            this.k3.Size = new System.Drawing.Size(75, 23);
-            this.k3.TabIndex = 3;
-            this.k3.Text = "3";
-            this.k3.UseVisualStyleBackColor = true;
-            // 
-            // k4
-            // 
-            this.k4.Location = new System.Drawing.Point(108, 116);
-            this.k4.Name = "k4";
-            this.k4.Size = new System.Drawing.Size(75, 23);
-            this.k4.TabIndex = 4;
-            this.k4.Text = "4";
-            this.k4.UseVisualStyleBackColor = true;
-            // 
-            // k5
-            // 
-            this.k5.Location = new System.Drawing.Point(6, 167);
-            this.k5.Name = "k5";
-            this.k5.Size = new System.Drawing.Size(75, 23);
-            this.k5.TabIndex = 5;
-            this.k5.Text = "5";
-            this.k5.UseVisualStyleBackColor = true;
-            // 
-            // k6
-            // 
-            this.k6.Location = new System.Drawing.Point(108, 167);
-            this.k6.Name = "k6";
-            this.k6.Size = new System.Drawing.Size(75, 23);
-            this.k6.TabIndex = 6;
-            this.k6.Text = "6";
-            this.k6.UseVisualStyleBackColor = true;
-            // 
-            // k7
-            // 
-            this.k7.Location = new System.Drawing.Point(6, 208);
-            this.k7.Name = "k7";
-            this.k7.Size = new System.Drawing.Size(75, 23);
-            this.k7.TabIndex = 7;
-            this.k7.Text = "7";
-            this.k7.UseVisualStyleBackColor = true;
-            // 
-            // k8
-            // 
-            this.k8.Location = new System.Drawing.Point(108, 208);
-            this.k8.Name = "k8";
-            this.k8.Size = new System.Drawing.Size(75, 23);
-            this.k8.TabIndex = 8;
-            this.k8.Text = "8";
-            this.k8.UseVisualStyleBackColor = true;
             // 
             // listBox1
             // 
@@ -244,7 +244,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(657, 93);
-            this.progressBar1.Maximum = 9;
+            this.progressBar1.Maximum = 8;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(138, 23);
             this.progressBar1.TabIndex = 22;
@@ -277,6 +277,15 @@
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Kişisel Bilgiler";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(85, 123);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(100, 21);
+            this.comboBox2.TabIndex = 38;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // comboBox1
             // 
@@ -364,15 +373,6 @@
             this.label1.Size = new System.Drawing.Size(19, 13);
             this.label1.TabIndex = 25;
             this.label1.Text = "ad";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(85, 123);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(100, 21);
-            this.comboBox2.TabIndex = 38;
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // Form1
             // 

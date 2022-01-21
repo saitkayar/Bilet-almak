@@ -33,7 +33,7 @@ namespace seyahatacentasıform
           
           
           
-                if (progressBar1.Value==9)
+                if (progressBar1.Value==8)
                 {
                     MessageBox.Show("Otobüs dolmuştur.");
                     progressBar1.BackColor = Color.Red;
@@ -48,10 +48,6 @@ namespace seyahatacentasıform
                 }
             }
 
-            //if (textBox3.Text)
-            //{
-
-            //}
 
             comboBox2.Items.RemoveAt(comboBox2.SelectedIndex);
 
@@ -85,8 +81,7 @@ namespace seyahatacentasıform
             {
                 
                 but[rsg.Next(0,8)].BackColor = Color.Red;
-                progressBar1.Value ++;
-
+               
             }
             
             for (int i = 0; i < 8; i++)
@@ -100,9 +95,10 @@ namespace seyahatacentasıform
                 }
                
             }
+            
 
+            progressBar1.Value=(8-comboBox2.Items.Count);
 
-        
 
 
         }
